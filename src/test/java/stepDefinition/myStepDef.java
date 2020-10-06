@@ -40,21 +40,21 @@ public class myStepDef {
     @Given("User launches URL")
     public void userLaunchesURL() {
         System.out.println("Hello World!");
-        System.setProperty("webdriver.chrome.driver", "ChromeDriver/chromedriver_mac");
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("headless");
-        WebDriver driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(20000, TimeUnit.SECONDS);
-        String baseUrl = "http://demo.guru99.com/test/newtours/";
-        driver.get(baseUrl);
+//        System.setProperty("webdriver.chrome.driver", "ChromeDriver/chromedriver_mac");
+//        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("headless");
+//        WebDriver driver = new ChromeDriver(options);
+//        driver.manage().timeouts().implicitlyWait(20000, TimeUnit.SECONDS);
+//        String baseUrl = "http://demo.guru99.com/test/newtours/";
+//        driver.get(baseUrl);
 //        try{
 //            driver.findElement(By.xpath("//h1[contains(text(),'Demo Calculator')]")).isDisplayed();
 //        }catch (Exception e){
 //            System.out.println("HomePage is not displayed");
 //        }
-
-        driver.close();
-        driver.quit();
+//
+//        driver.close();
+//        driver.quit();
 
     }
 }
