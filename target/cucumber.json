@@ -1,0 +1,50 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-06T09:57:09.610Z",
+        "line": 3,
+        "name": "Sanity Test",
+        "description": "",
+        "id": "sanity-test;sanity-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8183000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launches URL",
+            "match": {
+              "location": "stepDefinition.myStepDef.userLaunchesURL()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Sanity Test",
+    "description": "",
+    "id": "sanity-test",
+    "keyword": "Feature",
+    "uri": "file:ChromeDriver/Features/SanityTest.feature",
+    "tags": [
+      {
+        "name": "@Sanity",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
